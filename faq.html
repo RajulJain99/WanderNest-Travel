@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FAQs | Travel Agency</title>
+  <link rel="stylesheet" href="faq.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Frequently Asked Questions ❓</h1>
+  </header>
+
+  <main class="faq-container">
+
+    <div class="faq-item">
+      <button class="faq-question">How do I book a trip?</button>
+      <div class="faq-answer">
+        <p>You can book online through our website or by contacting our customer service team.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Do I need a visa for international travel?</button>
+      <div class="faq-answer">
+        <p>Visa requirements vary by destination. We help you check and apply during booking.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Is travel insurance included?</button>
+      <div class="faq-answer">
+        <p>Travel insurance is optional but highly recommended. You can add it during checkout.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">What is your cancellation policy?</button>
+      <div class="faq-answer">
+        <p>Cancellations made up to 7 days before departure may be refunded based on the package terms.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Travel Agency. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const faqs = document.querySelectorAll(".faq-question");
+    faqs.forEach(faq => {
+      faq.addEventListener("click", () => {
+        faq.classList.toggle("active");
+        const answer = faq.nextElementSibling;
+        answer.style.display = answer.style.display === "block" ? "none" : "block";
+      });
+    });
+
+    <button class="faq-question">➕ How do I book a trip?</button>
+  </script>
+
+</body>
+</html>
