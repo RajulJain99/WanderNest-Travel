@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Paris</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f6f9;
+      color: #333;
+    }
+
+    .banner {
+      width: 100%;
+      height: 400px;
+      background: url("Paris.png") center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .banner h1 {
+      font-family: 'Playfair Display', serif;
+      color: white;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px 40px;
+      font-size: 3rem;
+      border-radius: 12px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .container h2 {
+      font-family: 'Playfair Display', serif;
+      color: #1e3a8a;
+      margin-bottom: 10px;
+    }
+
+    .container p {
+      line-height: 1.7;
+      font-size: 1.1rem;
+      margin-bottom: 25px;
+    }
+
+    ul {
+      margin-bottom: 30px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .back-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    .back-btn:hover {
+      background: #1e40af;
+    }
+
+    @media (max-width: 600px) {
+      .banner h1 {
+        font-size: 2rem;
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="banner">
+    <h1>Paris</h1>
+  </div>
+
+  <div class="container">
+    <h2>About Paris</h2>
+    <p>
+      Paris, the capital city of France, is one of the most iconic destinations in the world. Known as "The City of Light", it’s famous for its art, architecture, culture, and culinary delights. From the Eiffel Tower and the Louvre to charming cafés and romantic streets, Paris offers an unforgettable experience.
+    </p>
+
+    <h2>Key Highlights</h2>
+    <ul>
+      <li><strong>Best Time to Visit:</strong> April to June & September to November</li>
+      <li><strong>Weather:</strong> Mild and pleasant most of the year</li>
+      <li><strong>Top Attractions:</strong> Eiffel Tower, Louvre Museum, Notre-Dame Cathedral, Seine River Cruises</li>
+      <li><strong>Local Cuisine:</strong> Croissants, macarons, baguettes, wine, and gourmet French dishes</li>
+      <li><strong>Fun Tip:</strong> Visit Montmartre at sunset for a perfect view of the city</li>
+    </ul>
+
+    <a href="destination.html" class="back-btn">← Back to Destinations</a>
+  </div>
+
+</body>
+</html>
